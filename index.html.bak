@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+        <title>Wile adventure</title>
+
+        <style>
+        #header {
+            background-color:black;
+            color:white;
+            text-align:center;
+            padding:10px;
+        }
+
+        #nav {
+            line-height:40px;
+            background-color:#eeeeee;
+            height:70%;
+            width:150px;
+            float:left;
+            padding:20px;
+        }
+
+        #section {
+            width:750px;
+            float:left;
+            padding:10px;
+        }
+
+        #footer {
+            background-color:black;
+            color:white;
+            clear:both;
+            text-align="center";
+            padding:1px;
+        }
+
+        </style>
+    </head>
+
+    <body>
+        <div id="header">
+            <h1>Wild Adventure</h1>
+        </div>
+
+        <div id="nav">
+            小说   Fictions<br />
+            游戏   Games<br />
+           <a href="./Films/films.html" target="_blank"> 电影   Films</a><br />
+            剧集   Series<br />
+            记事本 Notebook<br />
+        </div>
+
+        <div id="section">
+            <h4>欢迎来到 不羁冒险 小站，本小站于2018.02.23正式建立!</h4>
+            <p>这是一个分享小站, 在这里可以分享各种关于小说，<a href="#game">游戏</a>，<a href="#film">电影</a>，剧集，技术，以及其他各种有趣的消息。</p>
+
+            <hr align="left"/>
+
+            <a name="game"></a>
+            <h2>游戏Games</h2>
+            <a href="http://thegameawards.com/" target="_blank">The Game Awards官方网站</a>
+            <p>在玩中的游戏有：塞尔达荒野之息(Switch)，喷射2(Switch)，部落冲突:皇室战争(手机)，旅行青蛙(手机)，炉石传说(手机)，太鼓达人(PSV)，我的世界(PSV,手机)</p>
+            <img src="img/zelda.jpeg" alt="zelda" height="150px">
+            <img src="img/lushi.jpeg" alt="lushi" height="150px">
+            <img src="img/splatoon2.jpeg" alt="splatoon2" height="150px"><br />
+            <img src="img/huangshizhanzheng2.jpeg" alt="huangshizhanzheng" height="150px">
+            <img src="img/taigudaren.jpeg" alt="taigudaren" height="150px">
+            <img src="img/minecraft.jpeg" alt="minecraft" height="150px">
+            <img src="img/lvxingqingwa.jpeg" alt="lvxingqingwa" height="150px">
+              
+            <a name="film"></a>
+            <h2>电影Films</h2>
+            <p>近期将在大陆上映的电影，敬请期待！</p>
+                <p>黑豹:2018.03.09&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;水形物语:2018.03.16&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;头号玩家:2018.3.30</p>
+                <img src="img/BlackPanther2.jpg" alt="Black Panther" width="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="img/theShapeOfWater.jpg" alt="the Shape Of Water" width="150px">&nbsp;&nbsp;&nbsp;&nbsp;
+                <img src="img/ReadyPlayerOne.jpg" alt="Ready Player one" width="150px">
+  
+        </div>
+
+        <div id="footer">
+            <p align="center">Copyright&copy;WildAdventurn</p>
+        </div>
+
+ 
+    </body>
+</html>
